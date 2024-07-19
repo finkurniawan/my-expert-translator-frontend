@@ -24,7 +24,7 @@ export default function Home() {
 
     return (
         <main>
-            <div className={"flex flex-row items-end justify-center px-16 bg-gray-100 gap-1"}>
+            <div className={"flex  items-end justify-center px-16 bg-gray-100 gap-1 flex-col sm:flex-row space-y-5 sm:space-y-0 sm:gap-5"}>
                <div className={"w-full"}>
                    <Card placeholder={"your text"} handleAction={handleActionCard} key={1} type="input"/>
                </div>
