@@ -7,7 +7,8 @@ import {languages} from "@/data/languages";
 export default function Home() {
     const [text, setText] = useState("");
     const [output, setOutput] = useState("");
-    const [languageCode,setLanguageCode] = useState("");
+    const [languageCode,setLanguageCode] = useState(languages[0].code);
+
     const handleActionCard = (text: String): void => {
         // @ts-ignore
         setText(text);
