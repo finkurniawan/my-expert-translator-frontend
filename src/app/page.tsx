@@ -32,8 +32,7 @@ export default function Home() {
                   <select onChange={(v) => handleChangeLanguage(v.target.value)}>
                       {languages.map((v,i) => <option key={i} value={v.code}>{v.name}</option>)}
                   </select>
-                  <Card placeholder={"output text"} handleAction={(_) => {
-                  }} output={output} key={2} type="output"/>
+                  <Card placeholder={"output text"} output={output} key={2} type="output"/>
               </div>
             </div>
         </main>
